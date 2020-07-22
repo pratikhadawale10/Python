@@ -1,0 +1,25 @@
+#conversion of integer, float and string#
+A=10
+B="10"
+C=10.0
+
+A1=float(A)
+print(type(A1))
+print(A1)
+A2=str(A)
+print(type(A2))
+print(A2)
+
+B1=int(B)
+print(type(B1))
+print(B1)
+B2=float(B)
+print(type(B2))
+print(B2)
+
+C1=int(C)
+print(type(C1))
+print(C1)
+C2=str(C)
+print(type(C))
+print(C)
