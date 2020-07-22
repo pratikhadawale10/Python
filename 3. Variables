@@ -1,0 +1,13 @@
+#define variables#
+A=34
+B="Harry"
+C=45.32
+
+
+#print function with variables#
+print(A)
+print(B)
+print(C)
+print(A+C)
+print(A*5)
+print(B*4)
