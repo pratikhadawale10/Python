@@ -1,0 +1,36 @@
+A="Patrick"
+print(A)
+
+
+B='Patrick'
+print(B)
+
+
+C='  My name is Patrick  '
+print(C)
+print(C[0])
+print(C[1])
+print(C[4:8])
+print(C.strip())
+print(len(C))
+print(C.lower())
+print(C.upper())
+print(C.replace("a","AAA"))
+
+
+D="FCB,RMD,MUT,PSG"
+print(D.replace(",","\n"))
+
+
+E1="My name is"
+E2="Patrick"
+print(E1+E2)
+print(E1+" "+ E2)
+
+
+age=21
+name="Patrick"
+print("My name is {} and I am {} years old".format(age, name))
+print("My name is {1} and I am {0} years old".format(name,age))
+print(f"My name is (name) and I am (age) years old")
+
