@@ -17,3 +17,15 @@ print(B*4)
 print(type(A))
 print(type(B))
 print(type(C))
+
+
+#change values of variable#
+D=10
+D=11
+print(D)
+E=10
+E="10"
+print(E)
+F=100
+F=100.00
+print(F)
