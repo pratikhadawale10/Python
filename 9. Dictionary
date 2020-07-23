@@ -1,0 +1,12 @@
+A= {"Name": "Patrick", "Age":21, "College":"VIMEET"}
+print(type(A))
+print(len(A))
+print(A)
+print(A["Name"])
+print(A["Age"])
+
+A["Age"]=22
+print(A)
+
+A.pop("College")
+print(A)
