@@ -1,0 +1,27 @@
+def A():
+    print("Good Morning Sir")
+A()
+print(A())
+
+
+def B():
+    print("Good Morning")
+    print("Good Afternoon")
+    print("Good Night")
+B()
+
+
+def sum(a,b):
+    c=a+b
+    return c
+
+d=sum(2,8)
+print(d)
+
+
+def multiplication(a,b):
+    c=a*b
+    return c
+
+d=multiplication(10,30)
+print(d)
