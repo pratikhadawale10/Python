@@ -1,0 +1,27 @@
+class Employee:
+    def __init__(self, fname, lname, salary):
+        self.fname=fname
+        self.lname=lname
+        self.salary=salary
+        self.instance_increment=1.4
+        
+        
+    def increase(self):
+        self.salary= self.salary*self.instance_increment
+    
+    
+harry= Employee("Harry", "Jackson", 44000)
+rohan= Employee("Rohan","Das", 44000)
+
+print(harry.salary)
+harry.increase()
+print(harry.salary)
+
+print(rohan.salary)
+rohan.increase()
+print(rohan.salary)
+
+
+print(harry.__dict__)
+print(rohan.__dict__)
+print(Employee.__dict__)
