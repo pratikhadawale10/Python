@@ -1,0 +1,14 @@
+class Employee:
+    no_of_employee=0
+    
+    def __init__(self, fname, lname, salary):
+        self.fname=fname
+        self.lname=lname
+        self.salary=salary
+        Employee.no_of_employee+=1
+        
+print(Employee.no_of_employee)        
+harry= Employee("Harry", "Jackson", 44000)
+print(Employee.no_of_employee)
+rohan= Employee("Rohan","Das", 44000)
+print(Employee.no_of_employee)
