@@ -1,0 +1,25 @@
+class Employee:
+    
+    class_increment=1.5
+    def __init__(self, fname, lname, salary):
+        self.fname=fname
+        self.lname=lname
+        self.salary=salary
+      
+     
+    def increase(self):
+        self.salary= self.salary*Employee.class_increment
+        
+    @classmethod    
+    def change_increment(cls,amount):
+        cls.class_increment=amount
+    
+harry= Employee("Harry", "Jackson", 44000)
+rohan= Employee("Rohan","Das", 44000)
+
+print(harry.salary)
+harry.increase()
+print(harry.salary)
+Employee.change_increment(2)
+harry.increase()
+print(harry.salary)
