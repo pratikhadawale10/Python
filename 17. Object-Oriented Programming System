@@ -1,0 +1,23 @@
+class Employee:
+
+    def __init__(self, fname, lname, salary):
+        self.fname=fname
+        self.lname=lname
+        self.salary=salary
+        
+    @classmethod
+    def stringseparator(cls,string):
+        fname,lname,salary= string.split("-")
+        return cls(fname, lname, salary)
+
+    @staticmethod
+    def operorclose(day):
+        if day==("sunday"):
+            print("Closed")
+        else:
+            print("Open")
+    
+lovish= Employee.stringseparator("lovish-jackson-98000")
+
+Employee.operorclose("sunday")
+Employee.operorclose("monday")
